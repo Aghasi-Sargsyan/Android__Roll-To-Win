@@ -15,10 +15,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PULL PAIR TO WIN"
+            android:text="Pull Pair To Win"
+            android:fontFamily="cursive"
             android:layout_gravity="center"
             android:layout_marginTop="60dp"
-            android:textColor="@color/red"
+            android:textSize="38dp"
+            android:textColor="@color/lightBlue"
             />
     </LinearLayout>
 
@@ -82,15 +84,20 @@
             android:layout_marginTop="40dp"
             android:gravity="center"
             android:textColor="@color/gray"
+            android:fontFamily="casual"
             android:text="SCORE:    0"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/roll"
-            android:layout_width="200dp"
-            android:layout_height="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="@android:drawable/dialog_holo_light_frame"
+            android:fontFamily=""
+            android:background="@drawable/round_button"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            style="@style/Base.TextAppearance.AppCompat.Subhead.Inverse"
             android:text="roll" />
     </LinearLayout>
 
